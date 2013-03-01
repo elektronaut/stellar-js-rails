@@ -12,9 +12,7 @@ gem 'stellar-js-rails'
 
 Now run `bundle install`.
 
-### Usage
-
-Simply add the following to `app/assets/javascripts/application.js` after jQuery:
+To load the script, simply add a require statement to `app/assets/javascripts/application.js` (after jQuery):
 
     //= require jquery
     //= require jquery.stellar
@@ -23,6 +21,10 @@ You can also use the minified version:
 
     //= require jquery
     //= require jquery.stellar.min
+
+## Usage
+
+See the [Stellar.js documentation](http://markdalgleish.com/projects/stellar.js/docs/).
 
 ## Credits
 
